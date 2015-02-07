@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo service nginx restart
+
+#remember make this executable -> chmod +x restart-app
+#remember config visudo to not ask for password to run thiscript -> http://superuser.com/questions/745762/how-to-execute-commands-as-root-in-git-post-receive-hook

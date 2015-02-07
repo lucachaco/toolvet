@@ -1,0 +1,9 @@
+change /etc/mysql/my.cnf ->
+bind-address = 0.0.0.0
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+flush priviliges;
+
+create database->
+rake db:create
+bin/rake db:migrate
