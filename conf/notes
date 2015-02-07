@@ -1,0 +1,10 @@
+add full qualified host name to /etc/hosts file to speed up emails ->
+127.0.1.1 impactstatus.com
+
+locales problem in ubuntu is fix with this:
+
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+locale-gen en_US.UTF-8
+dpkg-reconfigure locales
